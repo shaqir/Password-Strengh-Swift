@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBD66C31EDD336800A962CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD66C21EDD336800A962CF /* AppDelegate.swift */; };
+		2FBD66C51EDD336800A962CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD66C41EDD336800A962CF /* ViewController.swift */; };
+		2FBD66C81EDD336800A962CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD66C61EDD336800A962CF /* Main.storyboard */; };
+		2FBD66CA1EDD336800A962CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD66C91EDD336800A962CF /* Assets.xcassets */; };
+		2FBD66CD1EDD336800A962CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD66CB1EDD336800A962CF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBD66BF1EDD336800A962CF /* Password-Strengh-Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password-Strengh-Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBD66C21EDD336800A962CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FBD66C41EDD336800A962CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBD66C71EDD336800A962CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBD66C91EDD336800A962CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBD66CC1EDD336800A962CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBD66CE1EDD336800A962CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBD66BC1EDD336800A962CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBD66B61EDD336800A962CF = {
+			isa = PBXGroup;
+			children = (
+				2FBD66C11EDD336800A962CF /* Password-Strengh-Checker */,
+				2FBD66C01EDD336800A962CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBD66C01EDD336800A962CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD66BF1EDD336800A962CF /* Password-Strengh-Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBD66C11EDD336800A962CF /* Password-Strengh-Checker */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD66C21EDD336800A962CF /* AppDelegate.swift */,
+				2FBD66C41EDD336800A962CF /* ViewController.swift */,
+				2FBD66C61EDD336800A962CF /* Main.storyboard */,
+				2FBD66C91EDD336800A962CF /* Assets.xcassets */,
+				2FBD66CB1EDD336800A962CF /* LaunchScreen.storyboard */,
+				2FBD66CE1EDD336800A962CF /* Info.plist */,
+			);
+			path = "Password-Strengh-Checker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBD66BE1EDD336800A962CF /* Password-Strengh-Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBD66D11EDD336800A962CF /* Build configuration list for PBXNativeTarget "Password-Strengh-Checker" */;
+			buildPhases = (
+				2FBD66BB1EDD336800A962CF /* Sources */,
+				2FBD66BC1EDD336800A962CF /* Frameworks */,
+				2FBD66BD1EDD336800A962CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password-Strengh-Checker";
+			productName = "Password-Strengh-Checker";
+			productReference = 2FBD66BF1EDD336800A962CF /* Password-Strengh-Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBD66B71EDD336800A962CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sakir;
+				TargetAttributes = {
+					2FBD66BE1EDD336800A962CF = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = U64JGWF6LE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FBD66BA1EDD336800A962CF /* Build configuration list for PBXProject "Password-Strengh-Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBD66B61EDD336800A962CF;
+			productRefGroup = 2FBD66C01EDD336800A962CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBD66BE1EDD336800A962CF /* Password-Strengh-Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBD66BD1EDD336800A962CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD66CD1EDD336800A962CF /* LaunchScreen.storyboard in Resources */,
+				2FBD66CA1EDD336800A962CF /* Assets.xcassets in Resources */,
+				2FBD66C81EDD336800A962CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBD66BB1EDD336800A962CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD66C51EDD336800A962CF /* ViewController.swift in Sources */,
+				2FBD66C31EDD336800A962CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FBD66C61EDD336800A962CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBD66C71EDD336800A962CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBD66CB1EDD336800A962CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBD66CC1EDD336800A962CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBD66CF1EDD336800A962CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U64JGWF6LE;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FBD66D01EDD336800A962CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U64JGWF6LE;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBD66D21EDD336800A962CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = U64JGWF6LE;
+				INFOPLIST_FILE = "Password-Strengh-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sivoxi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FBD66D31EDD336800A962CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = U64JGWF6LE;
+				INFOPLIST_FILE = "Password-Strengh-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sivoxi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBD66BA1EDD336800A962CF /* Build configuration list for PBXProject "Password-Strengh-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBD66CF1EDD336800A962CF /* Debug */,
+				2FBD66D01EDD336800A962CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBD66D11EDD336800A962CF /* Build configuration list for PBXNativeTarget "Password-Strengh-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBD66D21EDD336800A962CF /* Debug */,
+				2FBD66D31EDD336800A962CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBD66B71EDD336800A962CF /* Project object */;
+}
